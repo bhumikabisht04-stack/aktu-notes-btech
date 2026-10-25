@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engineering Notes — AKTU by Bhumika Bisht</title>
+<meta name="description" content="Organised AKTU engineering notes, one unit at a time. An independent student project by Bhumika Bisht.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#home"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M9 7h6"/></svg>Engineering Notes</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#subjects">Subjects</a></li>
+      <li><a href="#progress">My Progress</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <div id="home-view">
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">THE STUDENT STUDY LIBRARY · AKTU</p>
+        <h1>Engineering Notes, Made Simpler.</h1>
+        <p class="lede">Organised notes for the subjects you're studying, the concepts you're learning, and the exams you're preparing for.</p>
+        <p class="credit">Curated by Bhumika Bisht · B.Tech Student</p>
+        <a class="btn" href="#subjects">Explore Subjects ↓</a>
+      </div>
+      <div class="shelf" id="shelf" role="list" aria-label="The six subjects on the shelf"></div>
+    </section>
+
+    <section id="subjects" class="block">
+      <h2>Find your subject.</h2>
+      <p class="sub">Everything in one place, one unit at a time.</p>
+      <div class="search">
+        <label for="search" class="sr">Search subjects, units and notes</label>
+        <input id="search" type="search" placeholder="Search subjects, units or notes" autocomplete="off">
+      </div>
+      <div id="subject-grid" class="grid"></div>
+      <div id="search-results" hidden></div>
+    </section>
+
+    <section id="progress" class="block">
+      <h2>My Study Progress</h2>
+      <p class="sub">Saved in this browser only. It does not sync between devices or browsers, and no account is needed.</p>
+      <div id="progress-body"></div>
+    </section>
+
+    <section id="about" class="block letter-block">
+      <article class="letter" aria-labelledby="letter-h">
+        <h2 id="letter-h">A Little Note from Bhumi</h2>
+        <p>Hi, I'm Bhumika — a B.Tech student trying to figure things out one semester at a time, just like you.</p>
+        <p>I started this little corner to make studying feel a little less overwhelming. I know how difficult it can be to find notes that are organised, easy to understand, and actually useful during exams.</p>
+        <p>This website is a work in progress, and I'll keep adding notes as I study and organise them. I hope something here makes your college journey a little easier.</p>
+        <p>Until then, take a breath, study at your own pace, and remember that you're figuring it out, too.</p>
+        <p class="sign">— Bhumi</p>
+      </article>
+    </section>
+  </div>
+
+  <div id="subject-view" hidden></div>
+</main>
+
+<footer class="footer">
+  <div>
+    <p class="f-title">Engineering Notes — AKTU by Bhumika Bisht</p>
+    <p>Built for learning, one unit at a time.</p>
+    <p class="small">An independent student project. Not affiliated with AKTU.</p>
+  </div>
+  <a href="#home">Back to top ↑</a>
+</footer>
+
+<script src="data/subjects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
