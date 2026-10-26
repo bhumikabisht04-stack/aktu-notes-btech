@@ -1,0 +1,7 @@
+# Treat documents as binary so diffs and PR tools never try to read them as UTF-8 text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.pptx binary

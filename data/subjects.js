@@ -48,7 +48,19 @@ window.SUBJECTS = [
   { id: "engineering-mathematics", name: "Engineering Mathematics",
     description: "Formulas, methods and worked examples.", icon: "maths", units: units("maths") },
   { id: "ai-prompt-engineering", name: "AI Prompt Engineering",
-    description: "Prompting concepts, techniques and practical notes.", icon: "prompt", units: units("prompt") },
+    description: "Prompting concepts, techniques and practical notes.", icon: "prompt",
+    units: units("prompt", {
+      4: { notes: [
+        {
+          id: "prompt-u4-notes-question-bank",
+          title: "Unit 4 — Notes & Solved Question Bank",
+          description: "AKTU exam notes with a solved question bank for Unit 4.",
+          file: "notes/ai-prompt-engineering/unit-4-notes-solved-question-bank.pdf",
+          fileType: "PDF",
+          size: "78 KB"
+        }
+      ] }
+    }) },
   { id: "iks", name: "Indian Knowledge Systems (IKS)",
     description: "Key concepts, traditions and concise revision notes.", icon: "iks", units: units("iks") },
   { id: "electrical-engineering", name: "Electrical Engineering",
