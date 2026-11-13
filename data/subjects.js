@@ -78,5 +78,19 @@ window.SUBJECTS = [
           size: "18 KB"
         }
       ] }
+    }) },
+  { id: "python-programming", name: "Python Programming (ACS101)",
+    description: "Python concepts, programs and exam-ready answers.", icon: "code",
+    units: units("python", {
+      4: { notes: [
+        {
+          id: "python-u4-complete-exam-notes",
+          title: "Unit 4 — Complete Exam Notes",
+          description: "Complete AKTU exam notes for ACS101 Python, Unit 4.",
+          file: "notes/python-programming/unit-4-complete-exam-notes.pdf",
+          fileType: "PDF",
+          size: "119 KB"
+        }
+      ] }
     }) }
 ];
