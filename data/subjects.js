@@ -25,15 +25,19 @@
 
    HOW TO EDIT A UNIT: use units("physics", { 1: { title: "...", description: "..." } }).
    Units with no title just show "Unit 1", "Unit 2", ...
+   HOW TO CHOOSE WHICH UNITS A SUBJECT HAS: add the first and last unit number,
+   e.g. units("c", {...}, 1, 3) shows Units 1–3 only. Default is Units 1–5.
    HOW TO ADD A SUBJECT: copy one block below, give it a new unique id, name,
    description, icon (physics, maths, prompt, iks, electrical, code, book)
    and a new units("prefix") prefix. Also create notes/<subject-id>/.
    ===================================================================== */
 
-function units(prefix, custom) {
+function units(prefix, custom, first, last) {
   custom = custom || {};
+  first = first || 1;   // first unit number shown (default 1)
+  last = last || 5;     // last unit number shown (default 5)
   var list = [];
-  for (var n = 1; n <= 5; n++) {
+  for (var n = first; n <= last; n++) {
     var c = custom[n] || {};
     list.push({ id: prefix + "-u" + n, number: n, title: c.title || "",
                 description: c.description || "", notes: c.notes || [] });
@@ -78,7 +82,7 @@ window.SUBJECTS = [
           size: "18 KB"
         }
       ] }
-    }) },
+    }, 1, 3) },
   { id: "python-programming", name: "Python Programming (ACS101)",
     description: "Python concepts, programs and exam-ready answers.", icon: "code",
     units: units("python", {
@@ -92,5 +96,5 @@ window.SUBJECTS = [
           size: "119 KB"
         }
       ] }
-    }) }
+    }, 4, 5) }
 ];
