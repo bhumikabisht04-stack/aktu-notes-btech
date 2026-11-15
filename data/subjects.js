@@ -81,8 +81,18 @@ window.SUBJECTS = [
           fileType: "PDF",
           size: "18 KB"
         }
+      ] },
+      5: { notes: [
+        {
+          id: "c-u5-complete-exam-notes",
+          title: "Unit 5 — Complete Exam Notes",
+          description: "Complete AKTU exam notes for ACS101 C Programming, Unit 5 (arrays and more).",
+          file: "notes/programming-in-c/unit-5-complete-exam-notes.pdf",
+          fileType: "PDF",
+          size: "476 KB"
+        }
       ] }
-    }, 1, 3) },
+    }, 1, 5) },
   { id: "python-programming", name: "Python Programming (ACS101)",
     description: "Python concepts, programs and exam-ready answers.", icon: "code",
     units: units("python", {
