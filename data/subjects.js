@@ -54,6 +54,16 @@ window.SUBJECTS = [
   { id: "ai-prompt-engineering", name: "AI Prompt Engineering",
     description: "Prompting concepts, techniques and practical notes.", icon: "prompt",
     units: units("prompt", {
+      1: { notes: [
+        {
+          id: "prompt-u1-complete-exam-notes",
+          title: "Unit 1 — Complete Exam Notes",
+          description: "Complete AKTU exam notes for Unit 1.",
+          file: "notes/ai-prompt-engineering/unit-1-complete-exam-notes.pdf",
+          fileType: "PDF",
+          size: "457 KB"
+        }
+      ] },
       4: { notes: [
         {
           id: "prompt-u4-notes-question-bank",
@@ -62,20 +72,6 @@ window.SUBJECTS = [
           file: "notes/ai-prompt-engineering/unit-4-notes-solved-question-bank.pdf",
           fileType: "PDF",
           size: "78 KB"
-        }
-      ] }
-    }) },
-  { id: "introduction-to-ai", name: "Introduction to Artificial Intelligence (AAI101/AAI201)",
-    description: "AI fundamentals, concepts and exam-ready answers.", icon: "prompt",
-    units: units("intro-ai", {
-      1: { notes: [
-        {
-          id: "intro-ai-u1-complete-exam-notes",
-          title: "Unit 1 — Complete Exam Notes",
-          description: "Complete AKTU exam notes for Introduction to AI (AAI101/AAI201), Unit 1.",
-          file: "notes/introduction-to-ai/unit-1-complete-exam-notes.pdf",
-          fileType: "PDF",
-          size: "457 KB"
         }
       ] }
     }) },
