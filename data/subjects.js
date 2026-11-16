@@ -64,6 +64,16 @@ window.SUBJECTS = [
           size: "457 KB"
         }
       ] },
+      2: { notes: [
+        {
+          id: "prompt-u2-ai-ml-neural-networks",
+          title: "Unit 2 — AI, ML & Neural Networks Complete Notes",
+          description: "Complete AKTU notes on Introduction to AI, Machine Learning and Neural Networks.",
+          file: "notes/ai-prompt-engineering/unit-2-ai-ml-neural-networks-notes.pdf",
+          fileType: "PDF",
+          size: "76 KB"
+        }
+      ] },
       4: { notes: [
         {
           id: "prompt-u4-notes-question-bank",
