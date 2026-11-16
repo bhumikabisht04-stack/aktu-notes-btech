@@ -65,6 +65,20 @@ window.SUBJECTS = [
         }
       ] }
     }) },
+  { id: "introduction-to-ai", name: "Introduction to Artificial Intelligence (AAI101/AAI201)",
+    description: "AI fundamentals, concepts and exam-ready answers.", icon: "prompt",
+    units: units("intro-ai", {
+      1: { notes: [
+        {
+          id: "intro-ai-u1-complete-exam-notes",
+          title: "Unit 1 — Complete Exam Notes",
+          description: "Complete AKTU exam notes for Introduction to AI (AAI101/AAI201), Unit 1.",
+          file: "notes/introduction-to-ai/unit-1-complete-exam-notes.pdf",
+          fileType: "PDF",
+          size: "457 KB"
+        }
+      ] }
+    }) },
   { id: "iks", name: "Indian Knowledge Systems (IKS)",
     description: "Key concepts, traditions and concise revision notes.", icon: "iks", units: units("iks") },
   { id: "electrical-engineering", name: "Electrical Engineering",
