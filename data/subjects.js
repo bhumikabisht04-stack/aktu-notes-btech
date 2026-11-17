@@ -83,6 +83,15 @@ window.SUBJECTS = [
           fileType: "PDF",
           size: "78 KB"
         }
+      ] },
+       5: { notes: [
+        {
+          id: "prompt-u5-complete-exam-notes",
+          title: "Unit 5 — Complete Exam Notes",
+          description: "Complete AKTU exam notes for AI & Prompt Engineering, Unit 5.",
+          file: "notes/ai-prompt-engineering/unit-5-complete-exam-notes.pdf",
+          fileType: "PDF"
+        }
       ] }
     }) },
   { id: "iks", name: "Indian Knowledge Systems (IKS)",
